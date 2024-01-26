@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PlanIT</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="hintCorreo">email</string>
+    <string name="hintContrasena">contraseña</string>
+    <string name="nombreApp">PlanIT</string>
+    <string name="textoRegistro">Si todavía no tienes una cuenta</string>
+    <string name="registro">Registrarse</string>
+    <string name="oText">O</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_vsdgsdg">vsdgsdg</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="logout">Log Out</string>
+    <string name="mas">Más</string>
+    <string name="task_hint">¿Qué necesitas hacer?</string>
+    <string name="low_priority">Baja</string>
+    <string name="medium_priority">Media</string>
+    <string name="high_priority">Alta</string>
+    <string name="extended_fab_content_desc">Añadir tarea</string>
+    <string name="tarea_realizada">Tarea realizada</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="google">Continuar con Google</string>
+    <string name="default_web_client_id">474740418725-advdedvc1t14i4ba4605euk56bdcsk8u.apps.googleusercontent.com</string>
+
+</resources>

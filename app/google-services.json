@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "474740418725",
+    "project_id": "planit-6036f",
+    "storage_bucket": "planit-6036f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474740418725:android:ec43acd223164cb904854c",
+        "android_client_info": {
+          "package_name": "es.aam.planit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474740418725-19otdafqtf64bosd6966mhje89m6dig8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.aam.planit",
+            "certificate_hash": "4286ad11771c27a39a8abe0037697259a62ead77"
+          }
+        },
+        {
+          "client_id": "474740418725-advdedvc1t14i4ba4605euk56bdcsk8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv0Dy5ndovsKfpWMlN3uGPwOyKXCyHKOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474740418725-advdedvc1t14i4ba4605euk56bdcsk8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

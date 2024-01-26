@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tituloApp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/caveat"
+        android:text="@string/nombreApp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/primary"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailLayaut"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloApp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailBox"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:hint="@string/hintCorreo"
+            android:textColorHint="@color/primary"
+            android:textSize="18sp"
+            />
+    <requestFocus/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layaoutPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLayaut" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passBox"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:hint="@string/hintContrasena"
+            android:inputType="textPassword"
+            android:textColorHint="@color/secondary"
+            android:textSize="18sp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSingIn"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/iniciarSesion"
+        android:textColor="@color/onPrimary"
+        android:textSize="18sp"
+        app:backgroundTint="@color/primary"
+        app:layout_constraintEnd_toEndOf="@+id/layaoutPassword"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/layaoutPassword"
+        app:layout_constraintTop_toBottomOf="@+id/layaoutPassword"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSingUp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/registro"
+        android:textColor="@color/onPrimary"
+        android:textSize="18sp"
+        app:backgroundTint="@color/secondary"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSingIn"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/buttonSingIn"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSingIn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSingUpGoogle"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/google"
+        android:textColor="@color/primary"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/transparent"
+        app:strokeColor="@color/primary"
+        app:strokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSingIn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonSingIn"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSingUp"
+        app:icon="@mipmap/google"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/oText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oText"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSingUpGoogle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSingUp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
