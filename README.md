@@ -1,8 +1,10 @@
 # PlanIT - Tu gestor de tareas diarias
+
 ![nombre](Capturas/nombre.png)
 
 ## Descripción
 PlanIT es una aplicación avanzada para Android que facilita la gestión de tareas diarias. Este proyecto se destaca por su integración con Firebase, lo que proporciona una robusta solución de backend. Se utiliza Firebase para la autenticación de usuarios, permitiendo el registro y el inicio de sesión a través de correo electrónico o Google. Además, Firebase Firestore se emplea para almacenar y sincronizar las tareas en tiempo real, asegurando que los usuarios puedan acceder a sus listas desde cualquier dispositivo. La interfaz de la aplicación es intuitiva y fácil de usar, permitiendo a los usuarios gestionar sus tareas con eficacia.
+
 ![logo](Capturas/logo.png)
 
 ## Características
@@ -10,8 +12,11 @@ PlanIT es una aplicación avanzada para Android que facilita la gestión de tare
 - **Sincronización en tiempo real**: Las tareas se sincronizan en tiempo real con Firebase Firestore.
 - **Interfaz amigable**: Fácil de navegar y usar para la gestión diaria de tareas.
 - **Gestión de tareas**: Agregar, editar, eliminar y marcar tareas como completadas.
+  
 ![login](Capturas/login.png)
+
 ![principal](Capturas/principal.png)
+
 
 ## Instalación
 2. Abre la aplicación y regístrate o inicia sesión.
